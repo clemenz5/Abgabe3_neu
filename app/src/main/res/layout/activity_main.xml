@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/fibonacci_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fibonacci"/>
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"/>
+
+    <Button
+        android:id="@+id/persons_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Persons"/>
+
+</LinearLayout>
